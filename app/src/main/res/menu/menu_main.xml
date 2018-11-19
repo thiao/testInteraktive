@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bass.jedemenage.MainActivity">
+
+    <item
+        android:id="@+id/men_preferenc"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Fréférence"/>
+ <item
+        android:id="@+id/go_prefs"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Soldes"/>
+ <item
+        android:id="@+id/go_ussd"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Ussd"/>
+
+
+</menu>

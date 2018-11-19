@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Soldes</string>
+    <string name="title_activity_liste_adapter">ListeAdapter</string>
+    <string name="title_activity_ussd">Préférences</string>
+</resources>

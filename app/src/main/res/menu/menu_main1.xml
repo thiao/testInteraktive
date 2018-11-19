@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bass.jedemenage.MainActivity">
+
+    <item
+        android:id="@+id/action_palier"
+        android:orderInCategory="100"
+        android:title="rrrr"
+        android:icon="@android:drawable/bottom_bar"
+        app:showAsAction="always" />
+</menu>

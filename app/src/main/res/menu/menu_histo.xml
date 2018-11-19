@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bass.jedemenage.MainActivity">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="rrrr"
+        android:icon="@android:drawable/alert_light_frame"
+        app:showAsAction="always" />
+
+    <item
+    android:id="@+id/action_print"
+    android:orderInCategory="100"
+    android:title="rrrr"
+    android:icon="@android:drawable/bottom_bar"
+    app:showAsAction="always" />
+</menu>

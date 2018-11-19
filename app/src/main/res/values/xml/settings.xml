@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Paramètres Généraux"
+        android:key="general_settings">
+        <CheckBoxPreference
+            android:key="app_dev_mode"
+            android:title="Mode Développeur"
+            android:summary="Activer/Désactiver le mode développeur"
+            android:defaultValue="true"/>
+
+        <EditTextPreference
+            android:key="api_secret"
+            android:title="API Secret"
+            android:summary="Spécifier l'access API"
+            android:dialogTitle="@string/app_name"
+            android:dialogMessage="Entrer le code secret de l'API"
+            android:negativeButtonText="ANNULER"
+            android:positiveButtonText="OK"
+
+            android:defaultValue="test:39ca@a84hg"
+            android:inputType="textPassword"/>
+
+        <!--
+        <EditTextPreference
+            android:key="api_interface"
+            android:title="API Interface"
+            android:summary="Spécifier le type de ce terminal"
+            android:dialogTitle="@string/app_name"
+            android:dialogMessage="Entrer le type du terminal"
+            android:negativeButtonText="ANNULER"
+            android:positiveButtonText="OK"
+            android:defaultValue="TPE"
+            android:inputType="text"/>
+
+        <EditTextPreference
+            android:key="api_interface_id"
+            android:title="API Interface Id"
+            android:summary="Spécifier l'indentificateur de ce terminal"
+            android:dialogTitle="@string/app_name"
+            android:dialogMessage="Enter l'identificateur du terminal"
+            android:negativeButtonText="ANNULER"
+            android:positiveButtonText="OK"
+            android:defaultValue="1200"
+            android:inputType="text"/>
+        -->
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory
+        android:title="Propriétés Système"
+        android:key="system_settings">
+
+        <ListPreference
+            android:key="app_throttling"
+            android:title="Mise en veille"
+            android:summary="Sélectionner la période maximale d'inactivité"
+            android:defaultValue="10"
+            android:entries="@array/throttlingCheckInterval"
+            android:entryValues="@array/throttlingCheckIntervalValues" />
+
+        <EditTextPreference
+            android:key="app_password"
+            android:title="Admin"
+            android:summary="Spécifier le mot de passe admin"
+            android:dialogTitle="@string/app_name"
+            android:dialogMessage="Entrer le mot de passe admin"
+            android:negativeButtonText="ANNULER"
+            android:positiveButtonText="OK"
+            android:defaultValue="admin"
+            android:inputType="textPassword"/>
+
+    </PreferenceCategory>
+    -->
+
+</PreferenceScreen>
